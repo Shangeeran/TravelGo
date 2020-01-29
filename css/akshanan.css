@@ -1,0 +1,109 @@
+body{
+	margin:0px;
+	background-color:#E9EBF2;
+	
+
+}
+
+
+
+.myphoto img{
+	float:right;
+	width:200px;
+	border-radius:6px;
+	height: 220px;
+	border: 4px solid #0A3290;
+}
+
+.start{
+	float:right;
+	padding:1%;
+	line-height:25px;
+	background-color:#E8EDF8;
+	border-left: 10px solid #0A3290;
+}
+
+.start h2{
+	font-family:Verdana;
+	font-size: 23px;
+}
+
+.start p{
+	font-family: sans-serif;
+	color:#4A4848;
+}
+
+
+.myself h3{
+	font-family: Verdana;
+	margin: 30px;
+	color: #1B7AD9;	
+}
+
+
+.myself p{
+	padding:2%;
+	font-family:sans-serif;
+	line-height:24px;
+	color:#1B1C1E;
+}
+
+.education h3{
+	font-family: Verdana;
+	margin: 30px;
+	color:#1B7AD9;	
+}
+
+.education ul {
+  padding: 0;
+  margin: 100px auto;
+  margin-left: 220px;
+  line-height: 40px;
+}
+
+	
+
+
+.education li{
+	font-family: sans-serif;
+	color:#1B1C1E;
+}
+
+
+
+
+.experience h3{
+	font-family: Verdana;
+	margin: 30px;
+	color: #1B7AD9;
+}
+
+.experience ul 
+{
+  padding: 0;
+  margin: 100px auto;
+  margin-left: 220px;
+  line-height: 40px;
+}
+
+
+
+.experience li{
+	font-family: sans-serif;
+	color:#1B1C1E;
+}
+
+
+
+.bottom p{
+	margin:30px;
+	margin-left:80px;
+}
+
+
+.bottom h3{
+	width:200px;
+	color: #1B7AD9;
+	font-family: Verdana;
+	margin:30px;
+}

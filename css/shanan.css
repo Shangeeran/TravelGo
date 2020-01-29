@@ -1,0 +1,57 @@
+.shan {
+    border-radius: 0% 50% 0% 50%;
+    padding: 2%;
+    padding-bottom: 6%;
+}
+
+.left{
+    background-color: #252526;
+    width: 20%;
+    border-style: solid;
+    margin: 1%;
+    padding-right: 5%;
+    float: right;
+}
+
+#para{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+#p{
+    color: #ffffff;
+    font-size: 19px;
+}
+
+#par{
+    color: #ffffff;
+}
+
+.right0{
+    float: left;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    margin:1%;
+    width:70%;
+    box-sizing: border-box;
+}           
+
+h1{
+    padding-top: 2%;
+    padding-left: 7%;
+    font-size: 40px;
+}
+
+#pa{
+    padding-left: 7%;
+    font-size: 19px;
+}
+
+table{
+    padding-left: 5%;
+}
+
+#d{
+    padding-left: 15%;
+}

@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+/* header{
+    text-align: center;
+    padding: 32px;
+} */
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: #ddd;
+}
+
+.btn.active{
+    background-color: #666;
+    color: white;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/*Create two wqual columns that sits next to each other*/
+.column{
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 0 4px;
+}
+
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+    padding: 1%;
+    font-size: 60px;
+}
+
+.button{
+    text-align: center;
+    background-color: #c5d3e8;
+}
+
+
+/* background change */
+#color{
+    border-color: rgb(108, 121, 134);
+    border-style: solid;
+    background-color: rgb(108, 121, 134);
+    padding: 4px 16px;
+    display: block;
+    border-width: 100%;
+}
+
+
+.left0{
+    float: right;
+    width: 12%;
+}
+
+.right0{
+    float: right;
+    width: 8%;
+}
+
+
+#color ul{
+    list-style: none;   
+}
+#color ul li{
+    height: 20px;
+    width: 50px;
+}
+
+#color label:hover {
+    background-color: #ffffff;
+    display: block;
+    box-sizing: border-box;
+}
+
+#color label:hover {
+    display: block;
+}
+
+.imageviewer{
+    position: fixed;
+    background-color: #000000a3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: none;
+    
+}
+
+.imageholder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    right: 0;
+    width: 800px;
+    height: 400px;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 60;
+}
+.imageholder img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.imageholder .imagedes{
+    
+    bottom: 0;
+    background-color: aqua;
+    
+}
+.imageholder label{
+    position: absolute;
+    width: 100%;
+    padding: 15px;
+    bottom: 0;
+    background-color: #000000a3;
+    color:#ffffff;
+}

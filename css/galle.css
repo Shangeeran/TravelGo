@@ -1,0 +1,160 @@
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+	/* background-image: url("gall.jpg"); */
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+.mySlides {display: none;}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+#myDIV {
+  -webkit-animation: mymove 3s infinite; 
+  animation: mymove 3s infinite;
+}
+
+
+@-webkit-keyframes mymove {
+  50% {text-shadow: 10px 20px 30px blue;}
+}
+
+
+@keyframes mymove {
+  50% {text-shadow: 10px 20px 30px black;}
+}
+
+/*------------------------------ CONTENTS ------------------------------*/
+
+#slideshow1, #slideshow2, #slideshow3, #slideshow4{
+	background-color: rgba(240, 248, 255, 0.418);
+	width: 23.5%;
+	padding:5% 2% 0% 2%;
+
+}
+
+#contents {
+	display: inline-block;
+	width: 100%;
+
+}
+#contents h1 {
+	color: black;
+	font: 26px/30px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	text-transform: uppercase;
+}
+#contents div.body h1{
+	color: black;
+	font: 45px/45px "Times New Roman", Times, serif;
+	margin: 0 0 18px;
+	text-transform: uppercase;
+	margin:0% 40%;
+	position:absolute;
+}
+#contents div.body h2{
+	color: black;
+	font: 25px/25px "Times New Roman", Times, serif;
+	margin: 0 0 18px;
+	text-transform: uppercase;
+	position: absolute;
+	margin:0% 25%;
+	padding: 1% 0% 1% 10%;
+	background-color: rgba(240, 248, 255, 0.418);
+	width:56%;
+}
+#contents h2 {
+	font-size: 16px;
+	margin: 0 0 30px;
+}
+#contents h2 a {
+	color: black;
+	text-decoration: none;
+}
+#contents p {
+	color: black;
+	font-size: 15px;
+	text-align: justify;
+	line-height: 30px;
+	margin: 0;
+	margin-bottom: 5%;
+	padding:25px;
+	background-color: rgba(240, 248, 255, 0.418);
+}
+#contents p a {
+	color: black;
+}
+
+/** box-shadow **/
+#contents div.box {
+	background-position: left bottom;
+	margin-bottom: 20px;
+	margin-left: 1px;
+	padding: 0 0 6px;
+}
+#contents div.box > div {
+	background-position: -1745px top;
+	padding: 6px 0 0;
+}
+#contents div.body {
+	background-position: -871px top;
+	background-repeat: repeat-y;
+	min-height: 980px;
+	padding: 30px 40px 0;
+}
+
+
+
+
+#sites li {
+	padding-left: 20px;
+}
+#sites li img {
+	float: right;
+	border: 1px solid #2c9688;
+	margin-left: 15px;
+}
